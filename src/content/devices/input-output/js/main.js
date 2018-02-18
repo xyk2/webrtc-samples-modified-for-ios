@@ -94,6 +94,8 @@ function gotStream(stream) {
 
   console.log("lol");
   console.log(settings);
+  document.getElementById('output').innerHTML = JSON.stringify(capabilities) + JSON.stringify(settings);
+
 
   // Refresh button list in case labels have become available
   return navigator.mediaDevices.enumerateDevices();
