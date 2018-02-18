@@ -87,7 +87,6 @@ function gotStream(stream) {
   window.stream = stream; // make stream available to console
   videoElement.srcObject = stream;
 
-  await sleep(1000);
 
   const track = stream.getVideoTracks()[0];
   const capabilities = track.getCapabilities();
