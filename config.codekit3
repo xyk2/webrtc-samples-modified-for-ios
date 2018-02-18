@@ -1811,6 +1811,12 @@
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
+		},
+	"\/zoom.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/zoom.html",
+		"oF": 0
 		}
 	},
 "hooks": [
